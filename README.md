@@ -21,6 +21,7 @@
 ## Overview & Philosophy
 
 Brucius is a modern, high-performance, enterprise-grade music bot for Discord, built from the ground up to take full advantage of the speed of the Bun runtime and TypeScript 7. It's designed to work seamlessly with SoundCloud, Bandcamp, Twitch, Radio Streaming, direct HTTP/HTTPS audio streams, and audio formats natively supported by Lavalink v4. There is currently no support for YouTube as it requires a lot of workarounds to play.
+
 ---
 
 ## Key Features
