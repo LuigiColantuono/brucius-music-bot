@@ -1,0 +1,192 @@
+{
+    "common": {
+        "close": "Close",
+        "cancel": "Cancel",
+        "error": "Error",
+        "success": "Success",
+        "nobody": "`Nobody`",
+        "track_singular": "song",
+        "track_plural": "songs"
+    },
+    "errors": {
+        "join_voice": "YOU MUST BE IN A VOICE CHANNEL!",
+        "not_found": "No results found",
+        "generic": "Error processing request",
+        "no_playing": "No song playing",
+        "fav_load_error": "Could not load favorites.",
+        "db_not_connected": "Database not connected",
+        "fav_limit": "You reached the limit of 5 favorites!",
+        "fav_duplicate": "This song is already in your favorites!",
+        "fav_not_found": "Song not found in favorites",
+        "no_player": "No active player",
+        "no_queue": "No active queue",
+        "unsupported_interaction": "Unsupported interaction type",
+        "modal_error": "Error opening request",
+        "unknown_button": "Unknown button",
+        "track_not_found": "Track not found",
+        "shuffle_on": "Shuffle ON",
+        "shuffle_off": "Shuffle OFF",
+        "loop_on": "Loop ON",
+        "loop_off": "Loop OFF"
+    },
+    "default_player": {
+        "title": "# **BRUCIUS <:music:1450951740093632643> SONG REQUESTS**",
+        "instructions": {
+            "step1": "` 1 `︲ To make a request, you must join a voice channel",
+            "step2": "` 2 `︲ Use the buttons below to request a song",
+            "step3": "` 3 `︲ If the player has issues, use the `/reload` command to reload the player."
+        },
+        "platforms": "-# AVAILABLE PLATFORMS",
+        "last_interaction": "-# **LAST INTERACTION:**",
+        "stopped_by": "stopped playback!",
+        "buttons": {
+            "request": "Request Song",
+            "favorites": "Favorites",
+            "like": "Like"
+        }
+    },
+    "playing": {
+        "paused": "Paused",
+        "playing": "Now Playing",
+        "title": "Title",
+        "author": "Author",
+        "field_requested_by": "Requested by",
+        "field_channel": "Voice Channel",
+        "field_channel_short": "Channel",
+        "field_queue": "Songs in queue",
+        "field_queue_short": "In queue",
+        "field_progress": "Progress",
+        "unknown_artist": "Unknown Artist"
+    },
+    "favorites": {
+        "title": "Your Favorites",
+        "empty": "You haven't saved any songs yet.",
+        "instructions": "Press <:like:1454131414483206196> while listening to a song to add it.",
+        "delete_label": "Delete: ",
+        "delete_description": "Remove from favorites",
+        "placeholder": "🧹 Delete a song..."
+    },
+    "queue": {
+        "title": "Queue",
+        "empty": "Queue empty",
+        "no_track": "No track",
+        "footer": "tracks • Pg.",
+        "closed": "Queue closed"
+    },
+    "modals": {
+        "request_title": "Request Song",
+        "input_label": "Enter link or title",
+        "input_placeholder": "Link or Title..."
+    },
+    "messages": {
+        "started": "Playback started",
+        "playlist_started": "Playlist playback started",
+        "paused": "Playback paused",
+        "resumed": "Playback resumed",
+        "stopped": "Playback stopped",
+        "stopped_default": "Playback stopped and default player restored",
+        "skipped": "Skipped",
+        "rewind": "Rewinding",
+        "restart": "Restarting track",
+        "shuffle_on": "Shuffle ENABLED",
+        "shuffle_off": "Shuffle DISABLED",
+        "repeat_track": "Track repeat ENABLED",
+        "repeat_off": "Repeat DISABLED",
+        "track_not_found": "Track not found",
+        "no_player": "No active player",
+        "no_queue": "No active queue",
+        "join_voice": "You must be in a voice channel!",
+        "added_to_queue": "Added to queue from {{source}}!",
+        "search_added": "Search: \"{{query}}\" added to queue!",
+        "saved": "Track saved to favorites",
+        "playlist_saved": "Entire Playlist saved to favorites",
+        "removed": "Removed from favorites",
+        "error_saving": "Error saving favorite",
+        "error_removing": "Error during removal",
+        "lavalink_error": "Lavalink not connected!"
+    },
+    "interactions": {
+        "stopped": "`{{username}} stopped the playback`",
+        "started": "`{{username}} started: {{details}}`",
+        "paused": "`{{username}} paused`",
+        "resumed": "`{{username}} resumed playback`",
+        "skipped": "`{{username}} skipped the track`",
+        "queue_add": "`{{username}} added: {{details}}`",
+        "playlist_add": "`Added {{count}} songs to playlist`",
+        "track_selected": "`Track selected`",
+        "playing_track": "`Playing: {{title}}`",
+        "generic": "`{{username}} {{action}}`",
+        "time": {
+            "now": "just now",
+            "minutes_ago": "minutes ago",
+            "hours_ago": "hours ago",
+            "days_ago": "days ago"
+        }
+    },
+    "setup": {
+        "success": "Player configured!",
+        "field_thread": "Thread",
+        "field_forum": "Forum",
+        "field_skin": "Skin",
+        "field_language": "Language",
+        "footer_ready": "-# **THE MAIN PLAYER IS NOW READY FOR SONG REQUESTS.**",
+        "error_create": "Configuration error"
+    },
+    "botinfo": {
+        "buttons": {
+            "refresh": "Refresh",
+            "invite_bot": "Invite Bot",
+            "support_server": "Support Server",
+            "website": "Website"
+        },
+        "ui": {
+            "botinfo": {
+                "title": "## Bot Info & Stats",
+                "general_stats": "-# **GENERAL STATS**",
+                "server_count": "Servers",
+                "user_count": "Users",
+                "bot_stats": "-# **BOT STATS**",
+                "runtime": "Runtime",
+                "djs_version": "D.js Version",
+                "database": "Database",
+                "developer": "-# **DEVELOPER**",
+                "name": "Name",
+                "id": "ID",
+                "cluster_shard": "-# **CLUSTER {{clusterId}} ︲ SHARD {{shardId}}**",
+                "servers_this_shard": "Servers (Shard)",
+                "users_this_shard": "Users (Shard)",
+                "memory": "Memory",
+                "api_ping": "API Latency",
+                "db_ping": "DB Latency",
+                "network_latency": "Network Latency",
+                "ws_ping": "WebSocket Latency",
+                "ipc_ping": "IPC Latency",
+                "uptime": "Uptime",
+                "useful_links": "-# **USEFUL LINKS**",
+                "updated": "Updated: <t:{{timestamp}}:R>",
+                "timeout_message": "⚠️ Timed out. Use the command again to refresh.",
+                "requested_by": "Requested by {{requester}}"
+            }
+        },
+        "messages": {
+            "stats_updated": "Stats updated!",
+            "error_updating": "Error updating stats."
+        }
+    },
+    "commands": {
+        "setup": {
+            "description": "Configure the music player in the server"
+        },
+        "reload": {
+            "description": "Force default player restoration"
+        },
+        "status": {
+            "description": "Shows detailed information and statistics about the bot.",
+            "error_fetching": "Error fetching bot info."
+        },
+        "botinfo": {
+            "description": "Shows detailed information and statistics about the bot.",
+            "error_fetching": "Error fetching bot info."
+        }
+    }
+}

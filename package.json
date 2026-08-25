@@ -1,0 +1,67 @@
+{
+    "name": "brucius-music-bot",
+    "version": "1.0.0",
+    "description": "𝗕 𝗥 𝗨 𝗖 𝗜 𝗨 𝗦 🎵 - Enterprise Discord Music Bot",
+    "main": "src/main.ts",
+    "type": "module",
+    "scripts": {
+        "clean:logs": "rm -rf logs/*.log",
+        "start": "bun src/launcher.ts",
+        "dev": "bun --watch src/launcher.ts",
+        "shard": "bun src/main.ts",
+        "bridge": "bun src/server.ts",
+        "grid": "bun src/launcher.ts",
+        "prisma:generate": "bunx prisma generate",
+        "prisma:migrate": "bunx prisma migrate dev",
+        "prisma:deploy": "bunx prisma migrate deploy",
+        "prisma:studio": "bunx prisma studio",
+        "dashboard:dev": "cd dashboard && bun run dev",
+        "dashboard:build": "cd dashboard && bun run build",
+        "dashboard:start": "cd dashboard && bun run start",
+        "dashboard:install": "cd dashboard && bun install",
+        "dev:all": "bun start-both.js",
+        "lint": "biome check src",
+        "lint:fix": "biome check --write src",
+        "format": "biome format --write src",
+        "test": "bun test",
+        "docker:up": "docker-compose -f docker/docker-compose.yml up -d",
+        "docker:down": "docker-compose -f docker/docker-compose.yml down"
+    },
+    "dependencies": {
+        "@discordjs/voice": "^0.19.2",
+        "@magicyan/discord": "^1.7.4",
+        "@napi-rs/canvas": "^1.0.8",
+        "@prisma/adapter-pg": "^7.9.1",
+        "@prisma/client": "^7.9.1",
+        "buncord-cross-hosting": "^1.0.5",
+        "buncord-hybrid-sharding": "^1.0.6",
+        "discord.js": "^14.27.0",
+        "kazagumo-bun": "^3.4.4",
+        "pg": "^8.23.0",
+        "prisma": "^7.9.1",
+        "redis": "^6.2.1",
+        "shoukaku-bun": "4.2.3"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.5.10",
+        "@types/bun": "^1.4.0",
+        "@types/pg": "^8.23.1",
+        "typescript": "^7.0.2"
+    },
+    "keywords": [
+        "discord",
+        "music",
+        "bot",
+        "lavalink",
+        "typescript",
+        "bun"
+    ],
+    "author": {
+        "name": "Luigi Colantuono",
+        "url": "https://github.com/LuigiColantuono"
+    },
+    "license": "AGPL-3.0-or-later",
+    "engines": {
+        "bun": ">=1.4.0"
+    }
+}

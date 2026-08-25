@@ -1,0 +1,15 @@
+# Bun configuration file
+# https://bun.sh/docs/runtime/bunfig
+
+[test]
+# Root directory for tests
+root = "."
+
+[install]
+# Lockfile behavior
+production = false
+frozenLockfile = false
+
+[run]
+# Automatically load .env files
+env = true

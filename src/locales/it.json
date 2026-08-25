@@ -1,0 +1,190 @@
+{
+    "common": {
+        "close": "Chiudi",
+        "cancel": "Annulla",
+        "error": "Errore",
+        "success": "Successo",
+        "nobody": "Nessuno",
+        "track_singular": "brano",
+        "track_plural": "brani"
+    },
+    "errors": {
+        "join_voice": "DEVI ESSERE IN UN CANALE VOCALE!",
+        "not_found": "Nessun risultato trovato",
+        "generic": "Errore nel processare la richiesta",
+        "no_playing": "Nessun brano in riproduzione",
+        "fav_load_error": "Impossibile caricare i preferiti.",
+        "db_not_connected": "Database non connesso",
+        "fav_limit": "Hai raggiunto il limite di 5 preferiti!",
+        "fav_duplicate": "Questo brano è già nei tuoi preferiti!",
+        "fav_not_found": "Brano non trovato nei preferiti",
+        "no_player": "Nessun player attivo",
+        "no_queue": "Nessuna coda attiva",
+        "unsupported_interaction": "Tipo di interazione non supportato",
+        "modal_error": "Errore nell'aprire la richiesta",
+        "unknown_button": "Bottone non riconosciuto",
+        "track_not_found": "Traccia non trovata",
+        "shuffle_on": "Shuffle ATTIVO",
+        "shuffle_off": "Shuffle DISATTIVATO",
+        "loop_on": "Ripetizione brano ATTIVA",
+        "loop_off": "Ripetizione DISATTIVATA"
+    },
+    "default_player": {
+        "title": "# **BRUCIUS <:music:1450951740093632643> SONG REQUEST**",
+        "instructions": {
+            "step1": "` 1 `︲ Per effettuare una richiesta devi collegarti ad un canale vocale",
+            "step2": "` 2 `︲ Per richiedere un brano utilizza i pulsanti sottostanti",
+            "step3": "` 3 `︲ Se il player dovesse avere problemi usa il comando `/reload` per ricaricare il player."
+        },
+        "platforms": "-# **PIATTAFORME DISPONIBILI**",
+        "last_interaction": "-# **ULTIMA INTERAZIONE:**",
+        "stopped_by": "ha fermato la riproduzione!",
+        "buttons": {
+            "request": "Richiedi Canzone",
+            "favorites": "Preferiti",
+            "like": "Mi Piace"
+        }
+    },
+    "playing": {
+        "paused": "In Pausa",
+        "playing": "In Riproduzione",
+        "title": "Titolo",
+        "author": "Autore",
+        "field_requested_by": "Richiesto da",
+        "field_channel": "Canale Vocale",
+        "field_channel_short": "Canale",
+        "field_queue": "Brani in coda",
+        "field_queue_short": "In coda",
+        "field_progress": "Progresso",
+        "unknown_artist": "Artista sconosciuto"
+    },
+    "favorites": {
+        "title": "I tuoi Preferiti",
+        "empty": "Non hai ancora salvato nessun brano.",
+        "instructions": "Premi <:like:1454131414483206196> mentre ascolti un brano per aggiungerlo.",
+        "delete_label": "Elimina: ",
+        "delete_description": "Rimuovi dai preferiti",
+        "placeholder": "🗑️ Elimina un brano..."
+    },
+    "queue": {
+        "title": "Coda",
+        "empty": "Coda vuota",
+        "no_track": "Nessun brano",
+        "footer": "brani • Pag.",
+        "closed": "Coda chiusa"
+    },
+    "modals": {
+        "request_title": "Richiedi Canzone",
+        "input_label": "Inserisci link o titolo",
+        "input_placeholder": "Link o Titolo..."
+    },
+    "messages": {
+        "started": "Riproduzione avviata",
+        "playlist_started": "Riproduzione Playlist avviata",
+        "paused": "Riproduzione in pausa",
+        "resumed": "Riproduzione ripresa",
+        "stopped": "Riproduzione fermata",
+        "stopped_default": "Riproduzione fermata e player di default ripristinato",
+        "skipped": "Skippato",
+        "rewind": "Torno indietro",
+        "restart": "Riavvio traccia",
+        "shuffle_on": "Shuffle ATTIVO",
+        "shuffle_off": "Shuffle DISATTIVATO",
+        "repeat_track": "Ripetizione brano ATTIVA",
+        "repeat_off": "Ripetizione DISATTIVATA",
+        "track_not_found": "Brano non trovato",
+        "no_player": "Nessun player attivo",
+        "no_queue": "Nessuna coda attiva",
+        "join_voice": "Devi essere in un canale vocale!",
+        "added_to_queue": "Aggiunto alla coda da {{source}}!",
+        "search_added": "Ricerca: \"{{query}}\" aggiunta alla coda!",
+        "saved": "Brano salvato nei preferiti",
+        "playlist_saved": "Intera Playlist salvata nei preferiti",
+        "removed": "Rimosso dai preferiti",
+        "error_saving": "Errore nel salvare il preferito",
+        "error_removing": "Errore durante la rimozione",
+        "lavalink_error": "Lavalink non connesso!"
+    },
+    "interactions": {
+        "stopped": "{{username}} ha fermato la riproduzione",
+        "started": "{{username}} ha avviato: {{details}}",
+        "paused": "{{username}} ha messo in pausa",
+        "resumed": "{{username}} ha ripreso la riproduzione",
+        "skipped": "{{username}} ha saltato il brano",
+        "queue_add": "{{username}} ha aggiunto: {{details}}",
+        "playlist_add": "{{username}} ha aggiunto una playlist ({{details}} brani)",
+        "generic": "{{username}} ha {{action}}",
+        "time": {
+            "now": "proprio ora",
+            "minutes_ago": "minuti fa",
+            "hours_ago": "ore fa",
+            "days_ago": "giorni fa"
+        }
+    },
+    "setup": {
+        "success": "Player configurato!",
+        "field_thread": "Thread",
+        "field_forum": "Forum",
+        "field_skin": "Skin",
+        "field_language": "Lingua",
+        "footer_ready": "-# **IL PLAYER PRINCIPALE È ORA PRONTO PER LE RICHIESTE MUSICALI.**",
+        "error_create": "Errore configurazione"
+    },
+    "botinfo": {
+        "buttons": {
+            "refresh": "Aggiorna",
+            "invite_bot": "Invita Bot",
+            "support_server": "Server Supporto",
+            "website": "Sito Web"
+        },
+        "ui": {
+            "botinfo": {
+                "title": "Info & Statistiche Bot",
+                "general_stats": "Statistiche Generali",
+                "server_count": "Server",
+                "user_count": "Utenti",
+                "bot_stats": "Statistiche Bot",
+                "runtime": "Runtime",
+                "djs_version": "Versione D.js",
+                "database": "Database",
+                "developer": "Sviluppatore",
+                "name": "Nome",
+                "id": "ID",
+                "cluster_shard": "Cluster {{clusterId}} • Shard {{shardId}}",
+                "servers_this_shard": "Server (Shard)",
+                "users_this_shard": "Utenti (Shard)",
+                "memory": "Memoria",
+                "api_ping": "Latenza API",
+                "db_ping": "Latenza DB",
+                "network_latency": "Latenza di rete",
+                "ws_ping": "Latenza WebSocket",
+                "ipc_ping": "Latenza IPC",
+                "uptime": "Tempo di attività",
+                "useful_links": "Link Utili",
+                "updated": "Aggiornato: <t:{{timestamp}}:R>",
+                "timeout_message": "⚠️ Tempo scaduto. Usa di nuovo il comando per aggiornare.",
+                "requested_by": "Richiesto da {{requester}}"
+            }
+        },
+        "messages": {
+            "stats_updated": "Statistiche aggiornate!",
+            "error_updating": "Errore durante l'aggiornamento."
+        }
+    },
+    "commands": {
+        "setup": {
+            "description": "Configura il player musicale nel server"
+        },
+        "reload": {
+            "description": "Forza il ripristino del player di default"
+        },
+        "status": {
+            "description": "Visualizza informazioni dettagliate e statistiche sul bot.",
+            "error_fetching": "Errore nel recuperare le informazioni del bot."
+        },
+        "botinfo": {
+            "description": "Visualizza informazioni dettagliate e statistiche sul bot.",
+            "error_fetching": "Errore nel recuperare le informazioni del bot."
+        }
+    }
+}

@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Guild {
+  id        String   @id
+  forumId   String?
+  playerId  String?
+  settings  Json?    @default("{}")
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  queues    Queue[]
+  history   PlayHistory[]
+  playlists Playlist[]
+}
+
+model Queue {
+  id        String   @id @default(cuid())
+  guildId   String
+  tracks    Json     // Array di tracce Kazagumo
+  current   Int      @default(0)
+  isPlaying Boolean  @default(false)
+  
+  guild     Guild    @relation(fields: [guildId], references: [id])
+}
+
+model PlayHistory {
+  id        String   @id @default(cuid())
+  guildId   String
+  userId    String
+  track     Json     // Track data completa
+  playedAt  DateTime @default(now())
+  
+  guild     Guild    @relation(fields: [guildId], references: [id])
+  
+  @@index([guildId, playedAt])
+}
+
+model Playlist {
+  id        String   @id @default(cuid())
+  guildId   String
+  userId    String
+  name      String
+  tracks    Json     // Array di tracce
+  isPublic  Boolean  @default(false)
+  
+  guild     Guild    @relation(fields: [guildId], references: [id])
+  
+  @@index([guildId, userId])
+}
