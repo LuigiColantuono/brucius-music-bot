@@ -20,15 +20,9 @@
 
 ## Overview & Philosophy
 
-**Brucius** is a modern, high-performance, enterprise-grade Discord music bot built from the ground up to leverage the full speed of the **Bun** runtime and **TypeScript 7**.
-
-### ToS Compliance by Design
-
-Brucius is designed to work **out-of-the-box in strict compliance with Discord's and streaming platforms' Terms of Service**:
-
-- **Officially Supported Sources:** **SoundCloud**, **Bandcamp**, **Twitch**, **Radio Streams**, direct HTTP/HTTPS audio streams, and audio formats supported natively by Lavalink v4.
-- **No YouTube/Spotify Bypasses:** Does not contain token harvesters, cookie scrapers, or unauthorized workaround logic.
-- ⚠️ **Issue Policy:** _Any issues or pull requests requesting YouTube/Spotify token harvesting or unauthorized bypass mechanisms will be automatically closed without review._
+**Brucius** è un bot musicale per Discord moderno, ad alte prestazioni e di livello aziendale, costruito da zero per sfruttare appieno la velocità del runtime **Bun** e di **TypeScript 7**.
+È progettato per funzionare **senza bisogno di configurazioni** con **SoundCloud**, **Bandcamp**, **Twitch**, **Radio Streaming**, flussi audio HTTP/HTTPS diretti e formati audio supportati nativamente da Lavalink v4.
+There is currently no support for YouTube as it requires a lot of workarounds to play.
 
 ---
 
