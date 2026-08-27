@@ -190,7 +190,7 @@ It also uses exclusively the new V2 components.
 - **`/Reload:`** Reloads the bot's interface if any problems are encountered to avoid having to re-run the setup.
 
 <p align="center">
-<img src="https://media.discordapp.net/attachments/1457678238296965308/1457678299072303267/Screenshot_2025-12-27_222608.png?ex=6a8e1374&is=6a8cc1f4&hm=9e7d5a08e12cd28fa23f8f4a294f50a3db6287fc5fdeac293ee3078e83f6c01f&=&format=webp&quality=lossless" />
+<img src="https://media.discordapp.net/attachments/1463982955494903941/1463983354859749408/image.png?ex=6a913cff&is=6a8feb7f&hm=bf1a906bb23b0049f869fb3c7eb7eb205d8858cf01cf674ddfe19425cb9e66a6&=&format=webp&quality=lossless" />
 </p>
 <p align="center">
 <img src="https://media.discordapp.net/attachments/1457678238296965308/1457678299403649165/Screenshot_2025-12-27_222625.png?ex=6a8e1374&is=6a8cc1f4&hm=c124b450f372bc9f18205acdc9d417dd94f4a208b5539088c5a42a5358d53c69&=&format=webp&quality=lossless" />
